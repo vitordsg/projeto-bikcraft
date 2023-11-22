@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header-bg {
+  background-color: #000000;
+}
