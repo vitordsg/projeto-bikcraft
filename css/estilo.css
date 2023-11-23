@@ -39,6 +39,7 @@ a {
 .header-menu a {
   color: #ffffff;
   display: inline-block;
+  position: relative;
   font-size: 18px;
   padding: 16px 0px;
 }
@@ -46,6 +47,7 @@ a {
 .header-menu a::after {
   content: '';
   display: block;
+  position: absolute;
   height: 2px;
   width: 0px;
   background: #ffffff;
@@ -74,6 +76,10 @@ a {
   .header-menu a:hover {
     background-color: #2A2A2A;
     transition: background-color .6s ease-in-out;
+  }
+
+  .header a::after {
+    display: none;
   }
 }
 
