@@ -15,16 +15,16 @@
   border-radius: 6px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  color: var(--cor-p5);
+  color: var(--cor-10);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
-  transition: 1s ease;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .botao:hover {
-  background: var(--cor-p3);
-  color: var(--cor-6);
-  transition: 1s ease;
+  background-color: var(--cor-p0);
+  color: var(--cor-12);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   /* background: linear-gradient(#ffb60d, #e59317); */
 }
 
@@ -46,12 +46,12 @@
   height: 10px;
   margin-left: 12px;
   background: url("../../image/icones/seta.svg");
-  transition: transform .2s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 }
 
 .botao.seta:hover::after {
-  transform: translateX(5px);
-  transition: transform .2s ease-in-out;
+  transform: translateX(10px);
+  transition: transform 0.6s ease-in-out;
 }
 
 .botao.secundario:hover {
@@ -85,7 +85,7 @@
 
 .link:hover::after {
   width: 100%;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: currentColor;
 }
 
