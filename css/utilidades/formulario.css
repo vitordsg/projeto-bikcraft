@@ -24,6 +24,7 @@
   border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
+  transition: .3s ease-in-out;
 }
 
 .form input[type="text"]:focus,
@@ -31,6 +32,7 @@
 .form textarea:focus {
   outline: none;
   border-color: var(--cor-p1);
+  transition: .3s ease-in-out;
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
 }
