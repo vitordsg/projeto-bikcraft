@@ -37,6 +37,7 @@
 
 .header-menu a:hover::after {
   width: 100%;
+  background: var(--cor-p1);
   transition: 0.4s ease-in-out;
 }
 
