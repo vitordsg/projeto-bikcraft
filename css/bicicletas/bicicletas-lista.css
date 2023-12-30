@@ -21,6 +21,16 @@
   padding: 0px 0px 20px 0px;
 }
 
+.bicicletas-lista ul img {
+  filter: blur(3px);
+  transition: filter .4s ease-in-out;
+} 
+
+.bicicletas-lista ul img:hover {
+  filter: blur(0px);
+  transition: filter .4s ease-in-out;
+} 
+
 .bicicletas-lista li {
   min-width: 280px;
 }
