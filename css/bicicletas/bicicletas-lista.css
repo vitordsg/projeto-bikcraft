@@ -75,4 +75,8 @@
   .bicicletas-lista ul {
     gap: 20px;
   }
+
+  .bicicletas-lista ul img {
+    filter: blur(0px);
+  }
 }
