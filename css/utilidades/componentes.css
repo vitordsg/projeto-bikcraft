@@ -7,6 +7,34 @@
   margin-right: auto;
 }
 
+.container-edition {
+  line-height: 1;
+  display: grid;
+  min-height: calc(20vh - 5px);
+}
+
+.titulo-edition {
+  background: url("../../image/dec/top-right.svg") no-repeat top right 20px;
+}
+
+.titulo-edition h1 {
+  font-size: 7vw;
+  text-align: center;
+  margin: auto;
+  color: transparent;
+  text-shadow: 0 0 0 #333;
+  background: linear-gradient(
+    220deg,
+    var(--cor-p0) 19%,
+    transparent 19%,
+    transparent 19%,
+    var(--cor-p3) 20%,
+    transparent 15%,
+    transparent 15%
+  );
+  -webkit-background-clip: text;
+}
+
 .botao {
   padding: 16px 32px;
   display: inline-block;
