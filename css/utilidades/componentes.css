@@ -7,18 +7,8 @@
   margin-right: auto;
 }
 
-.container-edition {
-  line-height: 1;
-  display: grid;
-  min-height: calc(20vh - 5px);
-}
-
-.titulo-edition {
-  background: url("../../image/dec/top-right.svg") no-repeat top right 20px;
-}
-
 .h1-edition {
-  font-size: 7vw;
+  font-size: 5vw;
   text-align: center;
   margin: auto;
   color: transparent;
@@ -129,8 +119,10 @@
   background-color: var(--cor-11);
 }
 
-.titulo {
-  background: url("../../image/dec/top-right.svg") no-repeat top right 20px;
+@media (min-width: 600px) {
+  .titulo {
+    background: url("../../image/dec/top-right.svg") no-repeat top right 20px;
+  }
 }
 
 .titulo p {
