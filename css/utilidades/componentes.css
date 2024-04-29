@@ -17,22 +17,25 @@
   background: url("../../image/dec/top-right.svg") no-repeat top right 20px;
 }
 
-.titulo-edition h1 {
+.h1-edition {
   font-size: 7vw;
   text-align: center;
   margin: auto;
   color: transparent;
-  text-shadow: 0 0 0 #333;
+  text-shadow: 0 0 0 rgba(128, 128, 128, 0);
   background: linear-gradient(
     220deg,
     var(--cor-p0) 19%,
-    transparent 19%,
-    transparent 19%,
-    var(--cor-p3) 20%,
-    transparent 15%,
-    transparent 15%
+    transparent 19%, transparent 20%,
+    var(--cor-p0) 20%, var(--cor-p0) 39%,
+    transparent 39%, transparent 40%,
+    var(--cor-p0) 40%, var(--cor-p0) 59%,
+    transparent 59%, transparent 60%,
+    var(--cor-p0) 60%, var(--cor-p0) 79%,
+    transparent 79%, transparent 80%,
+    var(--cor-p0) 80%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .botao {
