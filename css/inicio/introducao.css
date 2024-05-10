@@ -30,46 +30,6 @@
   margin-bottom: 20px;
 }
 
-.texto-bolha {
-  font-size: clamp(2rem, calc(1rem + 0.3vw), 8rem);
-  color: hsl(0, 0%, 50%);
-  user-select: none;
-
-  &.split-text {
-    display: inline-flex;
-  }
-
-  &.split-char {
-    font-weight: 200;
-    transition: font-weight 0.5s ease;
-
-    &:hover {
-      font-weight: var(--fw-900);
-      color: var(--color-900);
-    }
-
-    /* Lado Direito -> */
-    &:hover + .split-char {
-      font-weight: var(--fw-700);
-      color: var(--color-700);
-    }
-    &:hover + .split-char + .split-char {
-      font-weight: var(--fw-450);
-      color: var(--color-450);
-    }
-
-    /* <- Lado Esquerdo */
-    &:has(+ .split-char:hover) {
-      font-weight: var(--fw-700);
-      color: var(--color-700);
-    }
-    &:has(+ .split-char + .split-char:hover) {
-      font-weight: var(--fw-450);
-      color: var(--color-450);
-    }
-  }
-}
-
 @media (max-width: 800px) {
   .introducao-bg {
     background: var(--cor-11);
